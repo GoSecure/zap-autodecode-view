@@ -1,0 +1,31 @@
+<zapaddon>
+    <name>Auto-Decode</name>
+    <version>1</version>
+    <description>Decode and decompress WS message using GZIP, Zlib, Brotli, URL and Base64.</description>
+    <author>Philippe Arteau (h3xStream)</author>
+    <url>https://github.com/GoSecure/zap-autodecode-view</url>
+    <changes/>
+    <dependson/>
+    <extensions>
+        <extension v="1">
+            <classname>org.zaproxy.zap.extension.decompress.AutoDecodeExtension</classname>
+            <classnames>
+                <allowed>org.zaproxy.zap.extension.decompress</allowed>
+            </classnames>
+            <dependencies>
+                <addons>
+                    <addon>
+                        <id>websocket</id>
+                        <semver>*</semver>
+                    </addon>
+                </addons>
+            </dependencies>
+        </extension>
+    </extensions>
+    <ascanrules/>
+    <pscanrules/>
+    <filters/>
+    <files/>
+    <not-before-version>2.9.0</not-before-version>
+    <not-from-version/>
+</zapaddon>
