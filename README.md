@@ -9,3 +9,8 @@ This view will decode automatically messages if it detect one of the following c
  - Base64
  - URL decoding 
  - Brotli
+
+# Tutorials
+
+ - [How to install](https://github.com/GoSecure/zap-autodecode-view/wiki#how-to-install)
+ - [How to use](https://github.com/GoSecure/zap-autodecode-view/wiki#how-to-use)
