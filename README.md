@@ -1,5 +1,7 @@
 # Auto-Decode View for WebSocket
 
+*Looking for a maintainer: Please open an issue to let us know if you want to adopt this project.*
+
 This ZAP plugin is a demonstration of a custom view for the WebSocket messages.
 It adds a view "Auto-Decode" to the existing list "Text" and "Hex".
 
